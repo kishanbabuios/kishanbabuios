@@ -1,0 +1,550 @@
+{
+  "weight": {
+    "orange": {
+      "survey": [
+        {
+          "id": "2",
+          "message": "Do you have Pedal edema?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 21,
+              "label": "Yes",
+              "trigger": "3",
+              "show": "insights",
+              "symptom": "Pedal edema",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/PedelEdema.png"
+            },
+            {
+              "value": 22,
+              "label": "No",
+              "trigger": "3",
+              "show": "insights",
+              "imgUrl": "NA"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "message": "Do you have Leg cramps?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 31,
+              "label": "Yes",
+              "trigger": "4",
+              "show": "insights",
+              "symptom": "Leg cramps",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/LegCramp.png"
+            },
+            {
+              "value": 32,
+              "label": "No",
+              "trigger": "4",
+              "show": "insights",
+              "imgUrl": "NA"
+
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "message": "Do you feel Facial Puffiness?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 41,
+              "label": "Yes",
+              "trigger": "nil",
+              "show": "insights",
+              "symptom": "Facial puffiness",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/FacePuffiness.png"
+            },
+            {
+              "value": 42,
+              "label": "No",
+              "trigger": "nil",
+              "show": "insights",
+              "imgUrl": "NA"
+
+            }
+          ]
+        }
+      ]
+    },
+    "red": {
+      "survey": [
+        {
+          "id": "2",
+          "message": "Do you have Pedal edema?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 21,
+              "label": "Yes",
+              "trigger": "3",
+              "show": "insights",
+              "symptom": "Pedal edema",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/PedelEdema.png"
+            },
+            {
+              "value": 22,
+              "label": "No",
+              "trigger": "3",
+              "show": "insights",
+              "imgUrl": "NA"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "message": "Do you have Leg cramp?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 31,
+              "label": "Yes",
+              "trigger": "4",
+              "show": "insights",
+              "symptom": "Leg cramps",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/LegCramp.png"
+            },
+            {
+              "value": 32,
+              "label": "No",
+              "trigger": "4",
+              "show": "insights",
+              "imgUrl": "NA"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "message": "Do you feel Facial Puffiness?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 41,
+              "label": "Yes",
+              "trigger": "nil",
+              "show": "insights",
+              "symptom": "Facial puffiness",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/FacePuffiness.png"
+            },
+            {
+              "value": 42,
+              "label": "No",
+              "trigger": "nil",
+              "show": "insights",
+              "imgUrl": "NA"
+
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Hypotension": {
+    "orange": {
+      "survey": [
+        {
+          "id": "1",
+          "message": "Do you have Fever, chills or both?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 11,
+              "label": "Yes",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Fever/Chills",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Fever.png"
+            },
+            {
+              "value": 12,
+              "label": "No",
+              "trigger": "2",
+              "show": "insights",
+              "imgUrl": "NA"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "message": "Have you taken your BP Medication today?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 21,
+              "label": "Yes",
+              "trigger": "3",
+              "show": "insights",
+              "imgUrl": "NA"
+            },
+            {
+              "value": 22,
+              "label": "No",
+              "trigger": "3",
+              "show": "insights",
+              "symptom": "Medication not taken",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Medication.png"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "message": "Did you have more alcohol than you normally do?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 31,
+              "label": "Yes",
+              "trigger": "4",
+              "show": "insights",
+              "symptom": "Alcohol more than limited",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Alchohol.png"
+            },
+            {
+              "value": 32,
+              "label": "No",
+              "trigger": "4",
+              "show": "insights",
+              "imgUrl": "NA"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "message": "Did you sleep well last night ?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 41,
+              "label": "Yes",
+              "trigger": "nil",
+              "show": "insights",
+              "imgUrl": "NA"
+            },
+            {
+              "value": 42,
+              "label": "No",
+              "trigger": "nil",
+              "show": "insights",
+              "symptom": "No sleep",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Sleep.png"
+
+            }
+          ]
+        }
+      ]
+
+    },
+    "red": {
+      "survey": [
+        {
+          "id": "1",
+          "message": "Do you have any of the following symptoms ?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 11,
+              "label": "Breathing difficulty",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Breathing difficulty",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Breathing.png"
+            },
+            {
+              "value": 12,
+              "label": "Chest pain",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Chest pain",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Chesttightness.png"
+            },
+            {
+              "value": 13,
+              "label": "Chest tightness",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Chest tightness",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Chestpain.png"
+            },
+            {
+              "value": 14,
+              "label": "Fever and Chills",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Fever/Chills",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Fever.png"
+            },
+            {
+              "value": 15,
+              "label": "None of the above",
+              "trigger": "nil",
+              "show": "insights",
+              "imgUrl": "NA"
+
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Hypertension": {
+    "orange": {
+      "survey": [
+        {
+          "id": "1",
+          "message": "Have you taken your BP medication today?",
+          "type": "singleSelection",
+
+          "options": [
+            {
+              "value": 11,
+              "label": "Yes",
+              "trigger": "2",
+              "show": "insights",
+              "imgUrl": "NA"
+            },
+            {
+              "value": 12,
+              "label": "No",
+              "trigger": "2",
+              "show": "insights",
+              "symptom": "Medication not taken",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Medication.png"
+
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "message": "Have you eaten any salty food in last 24 to 48 hours?",
+          "type": "singleSelection",
+
+          "options": [
+            {
+              "value": 21,
+              "label": "Yes",
+              "trigger": "3",
+              "show": "insights",
+              "symptom": "Salty food taken",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/SaltDiet.png"
+            },
+            {
+              "value": 22,
+              "label": "No",
+              "trigger": "3",
+              "show": "insights",
+              "imgUrl": "NA"
+
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "message": "Did you smoke today ?",
+          "type": "singleSelection",
+
+          "options": [
+            {
+              "value": 31,
+              "label": "Yes",
+              "trigger": "4",
+              "show": "insights",
+              "symptom": "Smoke",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Smoking.png"
+            },
+            {
+              "value": 32,
+              "label": "No",
+              "trigger": "4",
+              "show": "insights",
+              "imgUrl": "NA"
+
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "message": "Did you consume alcohol above your usual limits today?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 41,
+              "label": "Yes",
+              "trigger": "5",
+              "show": "insights",
+              "symptom": "Alcohol more than limited",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Alchohol.png"
+            },
+            {
+              "value": 42,
+              "label": "No",
+              "trigger": "5",
+              "show": "insights",
+              "imgUrl": "NA"
+
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "message": "Did you have physical or mental stress today?",
+          "type": "singleSelection",
+          "options": [
+            {
+              "value": 51,
+              "label": "Yes",
+              "trigger": "6",
+              "show": "insights",
+              "symptom": "Stress",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Stress.png"
+            },
+            {
+              "value": 52,
+              "label": "No",
+              "trigger": "6",
+              "show": "insights",
+              "imgUrl": "NA"
+
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "message": "Did you sleep well last night?",
+          "type": "singleSelection",
+
+          "options": [
+            {
+              "value": 61,
+              "label": "Yes",
+              "trigger": "nil",
+              "show": "insights",
+              "imgUrl": "NA"
+            },
+            {
+              "value": 62,
+              "label": "No",
+              "trigger": "nil",
+              "show": "insights",
+              "symptom": "No sleep",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Sleep.png"
+
+            }
+          ]
+        }
+      ]
+    },
+    "red": {
+      "survey": [
+        {
+          "id": "1",
+          "message": "Do you have any of the following symptoms ?",
+          "type": "multiSelection",
+          "symptomType":"You probably might have Cardio Vascular Stroke",
+          "options": [
+            {
+              "value": 11,
+              "label": "Breathing difficulty",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Breathing difficulty",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Breathing.png"
+            },
+            {
+              "value": 12,
+              "label": "Chest pain",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Chest pain",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Chestpain.png"
+            },
+            {
+              "value": 13,
+              "label": "Chest tightness",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Chest tightness",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Chesttightness.png"
+            },
+            {
+              "value": 14,
+              "label": "None of the above",
+              "trigger": "2",
+              "show": "insights",
+              "imgUrl": "NA"
+            }
+          ]
+        },
+
+        {
+          "id": "2",
+          "message": "Do you have any of the following symptoms ?",
+          "type": "multiSelection",
+          "symptomType":"You probably might have Cerebro Vascular Stroke",
+          "options": [
+
+            {
+              "value": 21,
+              "label": "Facial weakness",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Facial weakness",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/FaceWeakness.png"
+            },
+            {
+              "value": 22,
+              "label": "Loss of balance",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Loss of balance",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/LosingBalance.png"
+            },
+            {
+              "value": 23,
+              "label": "Blurred Vision",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Blurred Vision",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/BlurredVision.png"
+            },
+            {
+              "value": 24,
+              "label": "Slurring of Speech",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Slurring of Speech",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/SlurredSpeech.png"
+            },
+            {
+              "value": 25,
+              "label": "Weakness in the arm",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Weakness in the arm",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Armweakness.png"
+            },
+            {
+              "value": 26,
+              "label": "Worst head ache of your life",
+              "trigger": "nil",
+              "show": "alert",
+              "symptom": "Worst head ache of your life",
+              "imgUrl": "https://care365dev.xyramsoft.com/test/Headache.png"
+            },
+            {
+              "value": 27,
+              "label": "None of the above",
+              "trigger": "nil",
+              "show": "insights",
+              "imgUrl": "NA"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

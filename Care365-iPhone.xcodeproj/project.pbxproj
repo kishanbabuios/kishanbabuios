@@ -1,0 +1,1380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180CDD0826530D4C00884825 /* WeightInsightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CDD0626530D4C00884825 /* WeightInsightCell.swift */; };
+		180CDD0926530D4C00884825 /* WeightInsightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180CDD0726530D4C00884825 /* WeightInsightCell.xib */; };
+		18172ADE264461F700CE931E /* PostBpRedObservationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18172ADD264461F700CE931E /* PostBpRedObservationViewModel.swift */; };
+		18172AE3264464D500CE931E /* PostWtAndBpObservationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18172AE2264464D500CE931E /* PostWtAndBpObservationModel.swift */; };
+		18172AE92644874A00CE931E /* BpObservationHypoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18172AE72644874A00CE931E /* BpObservationHypoCell.swift */; };
+		18172AEA2644874A00CE931E /* BpObservationHypoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18172AE82644874A00CE931E /* BpObservationHypoCell.xib */; };
+		182769B5261D828500EFF622 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182769B4261D828500EFF622 /* Calculations.swift */; };
+		182769BA261D900F00EFF622 /* DialysisInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182769B9261D900F00EFF622 /* DialysisInfoModel.swift */; };
+		182769C7261DA47100EFF622 /* ObsevationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182769C6261DA47100EFF622 /* ObsevationViewModel.swift */; };
+		182769D0261DA5A800EFF622 /* ObservationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182769CF261DA5A800EFF622 /* ObservationModel.swift */; };
+		182C7EAA2653A6A300909C41 /* WeightMajorQuestionnaireCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182C7EA92653A6A300909C41 /* WeightMajorQuestionnaireCell.swift */; };
+		1830885826411FB400000C87 /* HyperInsightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1830885626411FB400000C87 /* HyperInsightCell.xib */; };
+		1830886026411FFE00000C87 /* HyperInsightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830885F26411FFE00000C87 /* HyperInsightCell.swift */; };
+		1833AE0A2667A36A00E695CE /* ExtraDialysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833AE092667A36A00E695CE /* ExtraDialysisViewModel.swift */; };
+		1833AE0F2667F1AA00E695CE /* ExtraDialysisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833AE0E2667F1AA00E695CE /* ExtraDialysisModel.swift */; };
+		18379469261C28E8003482A4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18379468261C28E8003482A4 /* HomeViewModel.swift */; };
+		18379473261C29C9003482A4 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18379472261C29C9003482A4 /* HomeModel.swift */; };
+		1837947F261C2F51003482A4 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837947E261C2F51003482A4 /* InformationViewController.swift */; };
+		18379484261C2FA7003482A4 /* InformationTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18379483261C2FA7003482A4 /* InformationTableCell.swift */; };
+		183D87E92652910C003811DE /* BpObservationHyperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D87E72652910C003811DE /* BpObservationHyperCell.swift */; };
+		183D87EA2652910C003811DE /* BpObservationHyperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183D87E82652910C003811DE /* BpObservationHyperCell.xib */; };
+		183DCD2B261E2A85004CE6B5 /* WeightObservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DCD29261E2A85004CE6B5 /* WeightObservationCell.swift */; };
+		183DCD2C261E2A85004CE6B5 /* WeightObservationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183DCD2A261E2A85004CE6B5 /* WeightObservationCell.xib */; };
+		183DCD32261E2C6F004CE6B5 /* BpObservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DCD30261E2C6F004CE6B5 /* BpObservationCell.swift */; };
+		183DCD33261E2C6F004CE6B5 /* BpObservationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183DCD31261E2C6F004CE6B5 /* BpObservationCell.xib */; };
+		1845887A261194210001384C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18458879261194210001384C /* AppDelegate.swift */; };
+		1845887C261194210001384C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845887B261194210001384C /* SceneDelegate.swift */; };
+		18458881261194210001384C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845887F261194210001384C /* Main.storyboard */; };
+		18458891261194220001384C /* Care365_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18458890261194220001384C /* Care365_iPhoneTests.swift */; };
+		1845889C261194220001384C /* Care365_iPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845889B261194220001384C /* Care365_iPhoneUITests.swift */; };
+		184588B0261194BD0001384C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184588AF261194BC0001384C /* Assets.xcassets */; };
+		184588B5261195720001384C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184588B4261195720001384C /* LoginViewController.swift */; };
+		184588C1261197370001384C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184588C0261197370001384C /* Extensions.swift */; };
+		184588C6261198000001384C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184588C5261198000001384C /* Utility.swift */; };
+		184588DA2611A7C60001384C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184588D92611A7C60001384C /* APIManager.swift */; };
+		184588E62611AB990001384C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184588E52611AB990001384C /* Constants.swift */; };
+		1845891B2611D3650001384C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18458884261194220001384C /* LaunchScreen.storyboard */; };
+		1845893C2611DA1D0001384C /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845893B2611DA1D0001384C /* CustomLoader.swift */; };
+		1845895A2611EC370001384C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184589592611EC370001384C /* LoginViewModel.swift */; };
+		18462BE1264518BD00EE81B8 /* BpOrangeObservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18462BDF264518BD00EE81B8 /* BpOrangeObservationCell.swift */; };
+		18462BE2264518BD00EE81B8 /* BpOrangeObservationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18462BE0264518BD00EE81B8 /* BpOrangeObservationCell.xib */; };
+		18462BE726451D4F00EE81B8 /* BpOrangeQuestionnaireViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18462BE626451D4F00EE81B8 /* BpOrangeQuestionnaireViewContoller.swift */; };
+		18462C032645250100EE81B8 /* BpOrangeQuestionnaireTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18462C022645250100EE81B8 /* BpOrangeQuestionnaireTableCell.swift */; };
+		1848951726205148001461D8 /* InsightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848951626205148001461D8 /* InsightViewController.swift */; };
+		184A58F6261594410094E82D /* VideoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A58F5261594410094E82D /* VideoTableCell.swift */; };
+		184A590D2615A6FA0094E82D /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A590C2615A6FA0094E82D /* VideoViewModel.swift */; };
+		184A594D2615F6930094E82D /* MenuTableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A594C2615F6930094E82D /* MenuTableSection.swift */; };
+		184A59522615F6A50094E82D /* MenuTableSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184A59512615F6A50094E82D /* MenuTableSection.xib */; };
+		184A69EE261AF105002607F3 /* ObservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A69ED261AF105002607F3 /* ObservationsViewController.swift */; };
+		184DE57A2614FBB500296F3F /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DE5792614FBB500296F3F /* MenuCell.swift */; };
+		1851974E26427F9700C4ECD1 /* BpObservationEmergencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851974C26427F9700C4ECD1 /* BpObservationEmergencyCell.swift */; };
+		1851974F26427F9700C4ECD1 /* BpObservationEmergencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1851974D26427F9700C4ECD1 /* BpObservationEmergencyCell.xib */; };
+		185197582642804600C4ECD1 /* BpObservationRedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185197562642804600C4ECD1 /* BpObservationRedCell.swift */; };
+		185197592642804600C4ECD1 /* BpObservationRedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185197572642804600C4ECD1 /* BpObservationRedCell.xib */; };
+		185BD872262721F8006B4068 /* WeightInsightObservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BD870262721F8006B4068 /* WeightInsightObservationCell.swift */; };
+		185BD873262721F8006B4068 /* WeightInsightObservationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185BD871262721F8006B4068 /* WeightInsightObservationCell.xib */; };
+		185E40452612E7CC00E00D6D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185E40442612E7CC00E00D6D /* Home.storyboard */; };
+		185E40552612E81D00E00D6D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E404E2612E81D00E00D6D /* VideoViewController.swift */; };
+		185E40562612E81D00E00D6D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E404F2612E81D00E00D6D /* TabBarViewController.swift */; };
+		1869FC4D263FCCC400D257ED /* QuestionaaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869FC4C263FCCC400D257ED /* QuestionaaireViewController.swift */; };
+		1869FC52263FCDBD00D257ED /* QuestionnaireTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869FC51263FCDBD00D257ED /* QuestionnaireTableCell.swift */; };
+		1869FC62263FD02200D257ED /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869FC61263FD02200D257ED /* QuestionnaireViewModel.swift */; };
+		1869FC6A263FD09900D257ED /* Questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = 1869FC69263FD09900D257ED /* Questionnaire.json */; };
+		1869FC72263FD75900D257ED /* QuestionnaireMajorSymptomsVcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869FC71263FD75900D257ED /* QuestionnaireMajorSymptomsVcViewController.swift */; };
+		1869FC87264038EB00D257ED /* ExtraDialysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869FC86264038EB00D257ED /* ExtraDialysisViewController.swift */; };
+		1876EEFD26133CD200BE255A /* HistoryModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876EEFC26133CD200BE255A /* HistoryModelController.swift */; };
+		1876EF022613412D00BE255A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876EF012613412D00BE255A /* LoginModel.swift */; };
+		188B0DB42649618F00A9517C /* PredefineExtensions in Resources */ = {isa = PBXBuildFile; fileRef = 188B0DB32649618F00A9517C /* PredefineExtensions */; };
+		18960BD226171BC2001CFFC5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18960BD126171BC2001CFFC5 /* HomeViewController.swift */; };
+		1897B6222613024F002FFF29 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897B6212613024F002FFF29 /* MenuViewController.swift */; };
+		18A7B62A2643B4F1004E49AB /* BpQuestionnaireMajorSymptomVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7B6292643B4F0004E49AB /* BpQuestionnaireMajorSymptomVc.swift */; };
+		18A7B6322643B78E004E49AB /* BpMajorSymptomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7B6312643B78E004E49AB /* BpMajorSymptomCollectionCell.swift */; };
+		18A7B6392643CE49004E49AB /* FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7B6372643CE49004E49AB /* FlowLayout.m */; };
+		18A7B6422643D9E4004E49AB /* survey.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A7B6412643D9E4004E49AB /* survey.json */; };
+		18AA5C0B2616504E00E36371 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA5C0A2616504E00E36371 /* SplashViewController.swift */; };
+		18B74FD5264BFB8600745BDE /* WeightObservationGreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B74FD3264BFB8600745BDE /* WeightObservationGreenCell.swift */; };
+		18B74FD6264BFB8600745BDE /* WeightObservationGreenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B74FD4264BFB8600745BDE /* WeightObservationGreenCell.xib */; };
+		18D3A1AA26538A07009A04E0 /* PostWeightObservations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3A1A926538A07009A04E0 /* PostWeightObservations.swift */; };
+		18D3A1B3265398DF009A04E0 /* WeightMajorQuestionnaireVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3A1B2265398DF009A04E0 /* WeightMajorQuestionnaireVc.swift */; };
+		18D528EF26134697002FFDA9 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D528EE26134697002FFDA9 /* HistoryModel.swift */; };
+		18D75AC526491765005DD964 /* BpOrangeFirstTimeObservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D75AC326491765005DD964 /* BpOrangeFirstTimeObservationCell.swift */; };
+		18D75AC626491765005DD964 /* BpOrangeFirstTimeObservationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D75AC426491765005DD964 /* BpOrangeFirstTimeObservationCell.xib */; };
+		18D7D4922613BF0300D1BEF7 /* PatientDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7D4912613BF0300D1BEF7 /* PatientDetailsModel.swift */; };
+		18D7D5122613D22200D1BEF7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D7D5112613D22200D1BEF7 /* Colors.xcassets */; };
+		18D7D5172613D36400D1BEF7 /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7D5162613D36400D1BEF7 /* MedicineViewController.swift */; };
+		18D7D51C2613DE6B00D1BEF7 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7D51B2613DE6B00D1BEF7 /* MenuModel.swift */; };
+		18DCAE182613379E009B06EA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCAE172613379E009B06EA /* HistoryViewController.swift */; };
+		18DCAE1D2613386C009B06EA /* HistoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCAE1C2613386C009B06EA /* HistoryTableCell.swift */; };
+		18DCBF552649D2A60011A4A9 /* HypoInsightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCBF532649D2A60011A4A9 /* HypoInsightCell.swift */; };
+		18DCBF562649D2A60011A4A9 /* HypoInsightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DCBF542649D2A60011A4A9 /* HypoInsightCell.xib */; };
+		731D4113E133F5D6FEAD9057 /* Pods_Care365_iPhone_Care365_iPhoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5185448487C8CC72894BC7 /* Pods_Care365_iPhone_Care365_iPhoneUITests.framework */; };
+		DC25641094C87A2F655DC3E0 /* Pods_Care365_iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67033D4794C1FD30F399E14 /* Pods_Care365_iPhone.framework */; };
+		EC183EE22769B60617EC83A5 /* Pods_Care365_iPhoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADB039298E706E2E3346B84 /* Pods_Care365_iPhoneTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1845888D261194220001384C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1845886E261194210001384C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18458875261194210001384C;
+			remoteInfo = "Care365-iPhone";
+		};
+		18458898261194220001384C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1845886E261194210001384C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18458875261194210001384C;
+			remoteInfo = "Care365-iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180CDD0626530D4C00884825 /* WeightInsightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightInsightCell.swift; sourceTree = "<group>"; };
+		180CDD0726530D4C00884825 /* WeightInsightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeightInsightCell.xib; sourceTree = "<group>"; };
+		18172ADD264461F700CE931E /* PostBpRedObservationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBpRedObservationViewModel.swift; sourceTree = "<group>"; };
+		18172AE2264464D500CE931E /* PostWtAndBpObservationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostWtAndBpObservationModel.swift; sourceTree = "<group>"; };
+		18172AE72644874A00CE931E /* BpObservationHypoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpObservationHypoCell.swift; sourceTree = "<group>"; };
+		18172AE82644874A00CE931E /* BpObservationHypoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BpObservationHypoCell.xib; sourceTree = "<group>"; };
+		182769B4261D828500EFF622 /* Calculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		182769B9261D900F00EFF622 /* DialysisInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialysisInfoModel.swift; sourceTree = "<group>"; };
+		182769C6261DA47100EFF622 /* ObsevationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsevationViewModel.swift; sourceTree = "<group>"; };
+		182769CF261DA5A800EFF622 /* ObservationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationModel.swift; sourceTree = "<group>"; };
+		182C7EA92653A6A300909C41 /* WeightMajorQuestionnaireCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightMajorQuestionnaireCell.swift; sourceTree = "<group>"; };
+		1830885626411FB400000C87 /* HyperInsightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HyperInsightCell.xib; sourceTree = "<group>"; };
+		1830885F26411FFE00000C87 /* HyperInsightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperInsightCell.swift; sourceTree = "<group>"; };
+		1833AE092667A36A00E695CE /* ExtraDialysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraDialysisViewModel.swift; sourceTree = "<group>"; };
+		1833AE0E2667F1AA00E695CE /* ExtraDialysisModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraDialysisModel.swift; sourceTree = "<group>"; };
+		18379468261C28E8003482A4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		18379472261C29C9003482A4 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		1837947E261C2F51003482A4 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		18379483261C2FA7003482A4 /* InformationTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableCell.swift; sourceTree = "<group>"; };
+		183D87E72652910C003811DE /* BpObservationHyperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpObservationHyperCell.swift; sourceTree = "<group>"; };
+		183D87E82652910C003811DE /* BpObservationHyperCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BpObservationHyperCell.xib; sourceTree = "<group>"; };
+		183DCD29261E2A85004CE6B5 /* WeightObservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightObservationCell.swift; sourceTree = "<group>"; };
+		183DCD2A261E2A85004CE6B5 /* WeightObservationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeightObservationCell.xib; sourceTree = "<group>"; };
+		183DCD30261E2C6F004CE6B5 /* BpObservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpObservationCell.swift; sourceTree = "<group>"; };
+		183DCD31261E2C6F004CE6B5 /* BpObservationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BpObservationCell.xib; sourceTree = "<group>"; };
+		18458876261194210001384C /* Care365-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Care365-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18458879261194210001384C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1845887B261194210001384C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18458880261194210001384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18458885261194220001384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18458887261194220001384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1845888C261194220001384C /* Care365-iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Care365-iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18458890261194220001384C /* Care365_iPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Care365_iPhoneTests.swift; sourceTree = "<group>"; };
+		18458892261194220001384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18458897261194220001384C /* Care365-iPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Care365-iPhoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845889B261194220001384C /* Care365_iPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Care365_iPhoneUITests.swift; sourceTree = "<group>"; };
+		1845889D261194220001384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184588AF261194BC0001384C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184588B4261195720001384C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		184588C0261197370001384C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		184588C5261198000001384C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		184588D92611A7C60001384C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		184588E52611AB990001384C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1845893B2611DA1D0001384C /* CustomLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoader.swift; sourceTree = "<group>"; };
+		184589592611EC370001384C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		18462BDF264518BD00EE81B8 /* BpOrangeObservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpOrangeObservationCell.swift; sourceTree = "<group>"; };
+		18462BE0264518BD00EE81B8 /* BpOrangeObservationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BpOrangeObservationCell.xib; sourceTree = "<group>"; };
+		18462BE626451D4F00EE81B8 /* BpOrangeQuestionnaireViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpOrangeQuestionnaireViewContoller.swift; sourceTree = "<group>"; };
+		18462C022645250100EE81B8 /* BpOrangeQuestionnaireTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpOrangeQuestionnaireTableCell.swift; sourceTree = "<group>"; };
+		1848951626205148001461D8 /* InsightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightViewController.swift; sourceTree = "<group>"; };
+		184A58F5261594410094E82D /* VideoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableCell.swift; sourceTree = "<group>"; };
+		184A590C2615A6FA0094E82D /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+		184A594C2615F6930094E82D /* MenuTableSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableSection.swift; sourceTree = "<group>"; };
+		184A59512615F6A50094E82D /* MenuTableSection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableSection.xib; sourceTree = "<group>"; };
+		184A69ED261AF105002607F3 /* ObservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsViewController.swift; sourceTree = "<group>"; };
+		184DE5792614FBB500296F3F /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		1851974C26427F9700C4ECD1 /* BpObservationEmergencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpObservationEmergencyCell.swift; sourceTree = "<group>"; };
+		1851974D26427F9700C4ECD1 /* BpObservationEmergencyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BpObservationEmergencyCell.xib; sourceTree = "<group>"; };
+		185197562642804600C4ECD1 /* BpObservationRedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpObservationRedCell.swift; sourceTree = "<group>"; };
+		185197572642804600C4ECD1 /* BpObservationRedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BpObservationRedCell.xib; sourceTree = "<group>"; };
+		185BD870262721F8006B4068 /* WeightInsightObservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightInsightObservationCell.swift; sourceTree = "<group>"; };
+		185BD871262721F8006B4068 /* WeightInsightObservationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeightInsightObservationCell.xib; sourceTree = "<group>"; };
+		185E40442612E7CC00E00D6D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		185E404E2612E81D00E00D6D /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		185E404F2612E81D00E00D6D /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1869FC4C263FCCC400D257ED /* QuestionaaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionaaireViewController.swift; sourceTree = "<group>"; };
+		1869FC51263FCDBD00D257ED /* QuestionnaireTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireTableCell.swift; sourceTree = "<group>"; };
+		1869FC61263FD02200D257ED /* QuestionnaireViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewModel.swift; sourceTree = "<group>"; };
+		1869FC69263FD09900D257ED /* Questionnaire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questionnaire.json; sourceTree = "<group>"; };
+		1869FC71263FD75900D257ED /* QuestionnaireMajorSymptomsVcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireMajorSymptomsVcViewController.swift; sourceTree = "<group>"; };
+		1869FC86264038EB00D257ED /* ExtraDialysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraDialysisViewController.swift; sourceTree = "<group>"; };
+		1876EEFC26133CD200BE255A /* HistoryModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModelController.swift; sourceTree = "<group>"; };
+		1876EF012613412D00BE255A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		188B0DB32649618F00A9517C /* PredefineExtensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PredefineExtensions; sourceTree = "<group>"; };
+		18960BD126171BC2001CFFC5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1897B5FA2612EF09002FFF29 /* LGSideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LGSideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1897B6212613024F002FFF29 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		18A7B6292643B4F0004E49AB /* BpQuestionnaireMajorSymptomVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpQuestionnaireMajorSymptomVc.swift; sourceTree = "<group>"; };
+		18A7B6312643B78E004E49AB /* BpMajorSymptomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpMajorSymptomCollectionCell.swift; sourceTree = "<group>"; };
+		18A7B6362643CE47004E49AB /* Care365-iPhone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Care365-iPhone-Bridging-Header.h"; sourceTree = "<group>"; };
+		18A7B6372643CE49004E49AB /* FlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLayout.m; sourceTree = "<group>"; };
+		18A7B6382643CE49004E49AB /* FlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowLayout.h; sourceTree = "<group>"; };
+		18A7B6412643D9E4004E49AB /* survey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = survey.json; sourceTree = "<group>"; };
+		18AA5C0A2616504E00E36371 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		18B74FD3264BFB8600745BDE /* WeightObservationGreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightObservationGreenCell.swift; sourceTree = "<group>"; };
+		18B74FD4264BFB8600745BDE /* WeightObservationGreenCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeightObservationGreenCell.xib; sourceTree = "<group>"; };
+		18D3A1A926538A07009A04E0 /* PostWeightObservations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostWeightObservations.swift; sourceTree = "<group>"; };
+		18D3A1B2265398DF009A04E0 /* WeightMajorQuestionnaireVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightMajorQuestionnaireVc.swift; sourceTree = "<group>"; };
+		18D528EE26134697002FFDA9 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		18D75AC326491765005DD964 /* BpOrangeFirstTimeObservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpOrangeFirstTimeObservationCell.swift; sourceTree = "<group>"; };
+		18D75AC426491765005DD964 /* BpOrangeFirstTimeObservationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BpOrangeFirstTimeObservationCell.xib; sourceTree = "<group>"; };
+		18D7D4912613BF0300D1BEF7 /* PatientDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailsModel.swift; sourceTree = "<group>"; };
+		18D7D5112613D22200D1BEF7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		18D7D5162613D36400D1BEF7 /* MedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
+		18D7D51B2613DE6B00D1BEF7 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		18DCAE172613379E009B06EA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		18DCAE1C2613386C009B06EA /* HistoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableCell.swift; sourceTree = "<group>"; };
+		18DCBF532649D2A60011A4A9 /* HypoInsightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypoInsightCell.swift; sourceTree = "<group>"; };
+		18DCBF542649D2A60011A4A9 /* HypoInsightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HypoInsightCell.xib; sourceTree = "<group>"; };
+		1BA5D8E8829332415933FA79 /* Pods-Care365-iPhoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Care365-iPhoneTests.release.xcconfig"; path = "Target Support Files/Pods-Care365-iPhoneTests/Pods-Care365-iPhoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		253BA76F71D4078EEBB2C198 /* Pods-Care365-iPhoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Care365-iPhoneTests.debug.xcconfig"; path = "Target Support Files/Pods-Care365-iPhoneTests/Pods-Care365-iPhoneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34CBCFED8F7DD4501F5DA048 /* Pods-Care365-iPhone-Care365-iPhoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Care365-iPhone-Care365-iPhoneUITests.debug.xcconfig"; path = "Target Support Files/Pods-Care365-iPhone-Care365-iPhoneUITests/Pods-Care365-iPhone-Care365-iPhoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A5185448487C8CC72894BC7 /* Pods_Care365_iPhone_Care365_iPhoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Care365_iPhone_Care365_iPhoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BB8D85C63A6AE2B66ED1FC /* Pods-Care365-iPhone-Care365-iPhoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Care365-iPhone-Care365-iPhoneUITests.release.xcconfig"; path = "Target Support Files/Pods-Care365-iPhone-Care365-iPhoneUITests/Pods-Care365-iPhone-Care365-iPhoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9F06F1D112B49114CBB981C /* Pods-Care365-iPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Care365-iPhone.debug.xcconfig"; path = "Target Support Files/Pods-Care365-iPhone/Pods-Care365-iPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		B67033D4794C1FD30F399E14 /* Pods_Care365_iPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Care365_iPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07B4586A567D3AE6062AF49 /* Pods-Care365-iPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Care365-iPhone.release.xcconfig"; path = "Target Support Files/Pods-Care365-iPhone/Pods-Care365-iPhone.release.xcconfig"; sourceTree = "<group>"; };
+		DADB039298E706E2E3346B84 /* Pods_Care365_iPhoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Care365_iPhoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18458873261194210001384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC25641094C87A2F655DC3E0 /* Pods_Care365_iPhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18458889261194220001384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC183EE22769B60617EC83A5 /* Pods_Care365_iPhoneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18458894261194220001384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D4113E133F5D6FEAD9057 /* Pods_Care365_iPhone_Care365_iPhoneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1816BBE526392EA8003D1F39 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				185BD870262721F8006B4068 /* WeightInsightObservationCell.swift */,
+				185BD871262721F8006B4068 /* WeightInsightObservationCell.xib */,
+				1848951626205148001461D8 /* InsightViewController.swift */,
+				1830885F26411FFE00000C87 /* HyperInsightCell.swift */,
+				1830885626411FB400000C87 /* HyperInsightCell.xib */,
+				18DCBF532649D2A60011A4A9 /* HypoInsightCell.swift */,
+				18DCBF542649D2A60011A4A9 /* HypoInsightCell.xib */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		18172ADC2644615100CE931E /* PostObservation */ = {
+			isa = PBXGroup;
+			children = (
+				18172ADD264461F700CE931E /* PostBpRedObservationViewModel.swift */,
+				18172AE2264464D500CE931E /* PostWtAndBpObservationModel.swift */,
+				18D3A1A926538A07009A04E0 /* PostWeightObservations.swift */,
+			);
+			path = PostObservation;
+			sourceTree = "<group>";
+		};
+		182769BE261DA3EA00EFF622 /* Observation */ = {
+			isa = PBXGroup;
+			children = (
+				182769D4261DA5AC00EFF622 /* Model */,
+				182769C2261DA3F500EFF622 /* View */,
+				182769CB261DA47800EFF622 /* ViewModel */,
+			);
+			path = Observation;
+			sourceTree = "<group>";
+		};
+		182769C2261DA3F500EFF622 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184A69ED261AF105002607F3 /* ObservationsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		182769CB261DA47800EFF622 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				182769C6261DA47100EFF622 /* ObsevationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		182769D4261DA5AC00EFF622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				182769CF261DA5A800EFF622 /* ObservationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1837946D261C29AD003482A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18379468261C28E8003482A4 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18379471261C29B5003482A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18960BD126171BC2001CFFC5 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18379477261C29D2003482A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18379472261C29C9003482A4 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1845886D261194210001384C = {
+			isa = PBXGroup;
+			children = (
+				18458878261194210001384C /* Care365-iPhone */,
+				1845888F261194220001384C /* Care365-iPhoneTests */,
+				1845889A261194220001384C /* Care365-iPhoneUITests */,
+				18458877261194210001384C /* Products */,
+				91BBA50B175BB109748A574C /* Pods */,
+				8EEA5D96FB0E441352E3A61A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18458877261194210001384C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18458876261194210001384C /* Care365-iPhone.app */,
+				1845888C261194220001384C /* Care365-iPhoneTests.xctest */,
+				18458897261194220001384C /* Care365-iPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18458878261194210001384C /* Care365-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				18458879261194210001384C /* AppDelegate.swift */,
+				1845887B261194210001384C /* SceneDelegate.swift */,
+				18AA5C0A2616504E00E36371 /* SplashViewController.swift */,
+				184589482611DE820001384C /* Utility */,
+				184DE5752614F9BA00296F3F /* StoryBoards */,
+				184589402611DE0C0001384C /* Login */,
+				1876EEF626133CA100BE255A /* History */,
+				184DE56C2614F94000296F3F /* Menu */,
+				18960BD626171BC8001CFFC5 /* Home */,
+				184A59042615A67A0094E82D /* Video */,
+				182769BE261DA3EA00EFF622 /* Observation */,
+				18F59B442646DF3800795EDC /* BpObservations */,
+				18A7B6462643DB53004E49AB /* BPQuestionnaire */,
+				18B74FCF264BFABD00745BDE /* WeightObservations */,
+				18D3A1B126539897009A04E0 /* WeightQuestionnaire */,
+				1816BBE526392EA8003D1F39 /* Insights */,
+				18172ADC2644615100CE931E /* PostObservation */,
+				185E404F2612E81D00E00D6D /* TabBarViewController.swift */,
+				1837947E261C2F51003482A4 /* InformationViewController.swift */,
+				18379483261C2FA7003482A4 /* InformationTableCell.swift */,
+				18D7D5162613D36400D1BEF7 /* MedicineViewController.swift */,
+				1869FC71263FD75900D257ED /* QuestionnaireMajorSymptomsVcViewController.swift */,
+				1869FC61263FD02200D257ED /* QuestionnaireViewModel.swift */,
+				1869FC86264038EB00D257ED /* ExtraDialysisViewController.swift */,
+				1833AE092667A36A00E695CE /* ExtraDialysisViewModel.swift */,
+				1833AE0E2667F1AA00E695CE /* ExtraDialysisModel.swift */,
+				1869FC69263FD09900D257ED /* Questionnaire.json */,
+				18A7B6412643D9E4004E49AB /* survey.json */,
+				188B0DB32649618F00A9517C /* PredefineExtensions */,
+				18A7B63D2643CE53004E49AB /* ObjectiveCFlowLayout */,
+				184588AF261194BC0001384C /* Assets.xcassets */,
+				18D7D5112613D22200D1BEF7 /* Colors.xcassets */,
+				18458884261194220001384C /* LaunchScreen.storyboard */,
+				18458887261194220001384C /* Info.plist */,
+				18A7B6362643CE47004E49AB /* Care365-iPhone-Bridging-Header.h */,
+			);
+			path = "Care365-iPhone";
+			sourceTree = "<group>";
+		};
+		1845888F261194220001384C /* Care365-iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				18458890261194220001384C /* Care365_iPhoneTests.swift */,
+				18458892261194220001384C /* Info.plist */,
+			);
+			path = "Care365-iPhoneTests";
+			sourceTree = "<group>";
+		};
+		1845889A261194220001384C /* Care365-iPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1845889B261194220001384C /* Care365_iPhoneUITests.swift */,
+				1845889D261194220001384C /* Info.plist */,
+			);
+			path = "Care365-iPhoneUITests";
+			sourceTree = "<group>";
+		};
+		184589402611DE0C0001384C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				184589462611DE470001384C /* Model */,
+				184589422611DE3F0001384C /* View */,
+				184589472611DE5A0001384C /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		184589422611DE3F0001384C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184588B4261195720001384C /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184589462611DE470001384C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1876EF012613412D00BE255A /* LoginModel.swift */,
+				18D7D4912613BF0300D1BEF7 /* PatientDetailsModel.swift */,
+				182769B9261D900F00EFF622 /* DialysisInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184589472611DE5A0001384C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				184589592611EC370001384C /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		184589482611DE820001384C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				184588D92611A7C60001384C /* APIManager.swift */,
+				184588C0261197370001384C /* Extensions.swift */,
+				182769B4261D828500EFF622 /* Calculations.swift */,
+				184588C5261198000001384C /* Utility.swift */,
+				1845893B2611DA1D0001384C /* CustomLoader.swift */,
+				184588E52611AB990001384C /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		184A59042615A67A0094E82D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				184A59082615A6AC0094E82D /* View */,
+				184A59112615A9570094E82D /* ViewModel */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		184A59082615A6AC0094E82D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184A58F5261594410094E82D /* VideoTableCell.swift */,
+				185E404E2612E81D00E00D6D /* VideoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184A59112615A9570094E82D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				184A590C2615A6FA0094E82D /* VideoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		184DE56C2614F94000296F3F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				184DE5732614F95600296F3F /* Model */,
+				184DE5742614F96900296F3F /* View */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		184DE5732614F95600296F3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D7D51B2613DE6B00D1BEF7 /* MenuModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		184DE5742614F96900296F3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1897B6212613024F002FFF29 /* MenuViewController.swift */,
+				184DE5792614FBB500296F3F /* MenuCell.swift */,
+				184A594C2615F6930094E82D /* MenuTableSection.swift */,
+				184A59512615F6A50094E82D /* MenuTableSection.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		184DE5752614F9BA00296F3F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				185E40442612E7CC00E00D6D /* Home.storyboard */,
+				1845887F261194210001384C /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		1876EEF626133CA100BE255A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				18D528ED2613467F002FFDA9 /* Model */,
+				1876EEF726133CA900BE255A /* View */,
+				1876EEFB26133CB200BE255A /* ViewModel */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		1876EEF726133CA900BE255A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18DCAE172613379E009B06EA /* HistoryViewController.swift */,
+				18DCAE1C2613386C009B06EA /* HistoryTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1876EEFB26133CB200BE255A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1876EEFC26133CD200BE255A /* HistoryModelController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18960BD626171BC8001CFFC5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18379477261C29D2003482A4 /* Model */,
+				18379471261C29B5003482A4 /* View */,
+				1837946D261C29AD003482A4 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18A7B63D2643CE53004E49AB /* ObjectiveCFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				18A7B6382643CE49004E49AB /* FlowLayout.h */,
+				18A7B6372643CE49004E49AB /* FlowLayout.m */,
+			);
+			path = ObjectiveCFlowLayout;
+			sourceTree = "<group>";
+		};
+		18A7B6462643DB53004E49AB /* BPQuestionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				18462BE626451D4F00EE81B8 /* BpOrangeQuestionnaireViewContoller.swift */,
+				18462C022645250100EE81B8 /* BpOrangeQuestionnaireTableCell.swift */,
+				18A7B6292643B4F0004E49AB /* BpQuestionnaireMajorSymptomVc.swift */,
+				18A7B6312643B78E004E49AB /* BpMajorSymptomCollectionCell.swift */,
+			);
+			path = BPQuestionnaire;
+			sourceTree = "<group>";
+		};
+		18B74FCF264BFABD00745BDE /* WeightObservations */ = {
+			isa = PBXGroup;
+			children = (
+				18B74FD3264BFB8600745BDE /* WeightObservationGreenCell.swift */,
+				18B74FD4264BFB8600745BDE /* WeightObservationGreenCell.xib */,
+				183DCD29261E2A85004CE6B5 /* WeightObservationCell.swift */,
+				183DCD2A261E2A85004CE6B5 /* WeightObservationCell.xib */,
+				180CDD0626530D4C00884825 /* WeightInsightCell.swift */,
+				180CDD0726530D4C00884825 /* WeightInsightCell.xib */,
+			);
+			path = WeightObservations;
+			sourceTree = "<group>";
+		};
+		18D3A1B126539897009A04E0 /* WeightQuestionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				18D3A1B2265398DF009A04E0 /* WeightMajorQuestionnaireVc.swift */,
+				182C7EA92653A6A300909C41 /* WeightMajorQuestionnaireCell.swift */,
+				1869FC4C263FCCC400D257ED /* QuestionaaireViewController.swift */,
+				1869FC51263FCDBD00D257ED /* QuestionnaireTableCell.swift */,
+			);
+			path = WeightQuestionnaire;
+			sourceTree = "<group>";
+		};
+		18D528ED2613467F002FFDA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D528EE26134697002FFDA9 /* HistoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18D75ACA2649177B005DD964 /* Orange */ = {
+			isa = PBXGroup;
+			children = (
+				18462BDF264518BD00EE81B8 /* BpOrangeObservationCell.swift */,
+				18462BE0264518BD00EE81B8 /* BpOrangeObservationCell.xib */,
+				18D75AC326491765005DD964 /* BpOrangeFirstTimeObservationCell.swift */,
+				18D75AC426491765005DD964 /* BpOrangeFirstTimeObservationCell.xib */,
+			);
+			path = Orange;
+			sourceTree = "<group>";
+		};
+		18F59B442646DF3800795EDC /* BpObservations */ = {
+			isa = PBXGroup;
+			children = (
+				18D75ACA2649177B005DD964 /* Orange */,
+				18F59B612646E14600795EDC /* Red */,
+				18F59B682646E1A000795EDC /* Insights */,
+				18F59B4E2646DFED00795EDC /* Green */,
+			);
+			path = BpObservations;
+			sourceTree = "<group>";
+		};
+		18F59B4E2646DFED00795EDC /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				183DCD30261E2C6F004CE6B5 /* BpObservationCell.swift */,
+				183DCD31261E2C6F004CE6B5 /* BpObservationCell.xib */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		18F59B612646E14600795EDC /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				1851974C26427F9700C4ECD1 /* BpObservationEmergencyCell.swift */,
+				1851974D26427F9700C4ECD1 /* BpObservationEmergencyCell.xib */,
+				185197562642804600C4ECD1 /* BpObservationRedCell.swift */,
+				185197572642804600C4ECD1 /* BpObservationRedCell.xib */,
+			);
+			path = Red;
+			sourceTree = "<group>";
+		};
+		18F59B682646E1A000795EDC /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				18172AE72644874A00CE931E /* BpObservationHypoCell.swift */,
+				18172AE82644874A00CE931E /* BpObservationHypoCell.xib */,
+				183D87E72652910C003811DE /* BpObservationHyperCell.swift */,
+				183D87E82652910C003811DE /* BpObservationHyperCell.xib */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		8EEA5D96FB0E441352E3A61A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1897B5FA2612EF09002FFF29 /* LGSideMenuController.framework */,
+				B67033D4794C1FD30F399E14 /* Pods_Care365_iPhone.framework */,
+				4A5185448487C8CC72894BC7 /* Pods_Care365_iPhone_Care365_iPhoneUITests.framework */,
+				DADB039298E706E2E3346B84 /* Pods_Care365_iPhoneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91BBA50B175BB109748A574C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9F06F1D112B49114CBB981C /* Pods-Care365-iPhone.debug.xcconfig */,
+				C07B4586A567D3AE6062AF49 /* Pods-Care365-iPhone.release.xcconfig */,
+				34CBCFED8F7DD4501F5DA048 /* Pods-Care365-iPhone-Care365-iPhoneUITests.debug.xcconfig */,
+				74BB8D85C63A6AE2B66ED1FC /* Pods-Care365-iPhone-Care365-iPhoneUITests.release.xcconfig */,
+				253BA76F71D4078EEBB2C198 /* Pods-Care365-iPhoneTests.debug.xcconfig */,
+				1BA5D8E8829332415933FA79 /* Pods-Care365-iPhoneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18458875261194210001384C /* Care365-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184588A0261194220001384C /* Build configuration list for PBXNativeTarget "Care365-iPhone" */;
+			buildPhases = (
+				030FE673F70985DC2A2C1A2A /* [CP] Check Pods Manifest.lock */,
+				18458872261194210001384C /* Sources */,
+				18458873261194210001384C /* Frameworks */,
+				18458874261194210001384C /* Resources */,
+				9CBCE0268F849324CA7B603C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Care365-iPhone";
+			productName = "Care365-iPhone";
+			productReference = 18458876261194210001384C /* Care365-iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1845888B261194220001384C /* Care365-iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184588A3261194220001384C /* Build configuration list for PBXNativeTarget "Care365-iPhoneTests" */;
+			buildPhases = (
+				5634AA4E0F71A8BB3D600109 /* [CP] Check Pods Manifest.lock */,
+				18458888261194220001384C /* Sources */,
+				18458889261194220001384C /* Frameworks */,
+				1845888A261194220001384C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1845888E261194220001384C /* PBXTargetDependency */,
+			);
+			name = "Care365-iPhoneTests";
+			productName = "Care365-iPhoneTests";
+			productReference = 1845888C261194220001384C /* Care365-iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18458896261194220001384C /* Care365-iPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184588A6261194220001384C /* Build configuration list for PBXNativeTarget "Care365-iPhoneUITests" */;
+			buildPhases = (
+				F68EF237AB99C2C5270F8865 /* [CP] Check Pods Manifest.lock */,
+				18458893261194220001384C /* Sources */,
+				18458894261194220001384C /* Frameworks */,
+				18458895261194220001384C /* Resources */,
+				182AD8095B3A3E8DC780F6B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18458899261194220001384C /* PBXTargetDependency */,
+			);
+			name = "Care365-iPhoneUITests";
+			productName = "Care365-iPhoneUITests";
+			productReference = 18458897261194220001384C /* Care365-iPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1845886E261194210001384C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					18458875261194210001384C = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					1845888B261194220001384C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18458875261194210001384C;
+					};
+					18458896261194220001384C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18458875261194210001384C;
+					};
+				};
+			};
+			buildConfigurationList = 18458871261194210001384C /* Build configuration list for PBXProject "Care365-iPhone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1845886D261194210001384C;
+			productRefGroup = 18458877261194210001384C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18458875261194210001384C /* Care365-iPhone */,
+				1845888B261194220001384C /* Care365-iPhoneTests */,
+				18458896261194220001384C /* Care365-iPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18458874261194210001384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183D87EA2652910C003811DE /* BpObservationHyperCell.xib in Resources */,
+				18D75AC626491765005DD964 /* BpOrangeFirstTimeObservationCell.xib in Resources */,
+				18A7B6422643D9E4004E49AB /* survey.json in Resources */,
+				18D7D5122613D22200D1BEF7 /* Colors.xcassets in Resources */,
+				1845891B2611D3650001384C /* LaunchScreen.storyboard in Resources */,
+				184588B0261194BD0001384C /* Assets.xcassets in Resources */,
+				184A59522615F6A50094E82D /* MenuTableSection.xib in Resources */,
+				1869FC6A263FD09900D257ED /* Questionnaire.json in Resources */,
+				1830885826411FB400000C87 /* HyperInsightCell.xib in Resources */,
+				18DCBF562649D2A60011A4A9 /* HypoInsightCell.xib in Resources */,
+				183DCD33261E2C6F004CE6B5 /* BpObservationCell.xib in Resources */,
+				18462BE2264518BD00EE81B8 /* BpOrangeObservationCell.xib in Resources */,
+				180CDD0926530D4C00884825 /* WeightInsightCell.xib in Resources */,
+				18458881261194210001384C /* Main.storyboard in Resources */,
+				183DCD2C261E2A85004CE6B5 /* WeightObservationCell.xib in Resources */,
+				185BD873262721F8006B4068 /* WeightInsightObservationCell.xib in Resources */,
+				1851974F26427F9700C4ECD1 /* BpObservationEmergencyCell.xib in Resources */,
+				185197592642804600C4ECD1 /* BpObservationRedCell.xib in Resources */,
+				18B74FD6264BFB8600745BDE /* WeightObservationGreenCell.xib in Resources */,
+				185E40452612E7CC00E00D6D /* Home.storyboard in Resources */,
+				18172AEA2644874A00CE931E /* BpObservationHypoCell.xib in Resources */,
+				188B0DB42649618F00A9517C /* PredefineExtensions in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845888A261194220001384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18458895261194220001384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030FE673F70985DC2A2C1A2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Care365-iPhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		182AD8095B3A3E8DC780F6B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Care365-iPhone-Care365-iPhoneUITests/Pods-Care365-iPhone-Care365-iPhoneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Care365-iPhone-Care365-iPhoneUITests/Pods-Care365-iPhone-Care365-iPhoneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Care365-iPhone-Care365-iPhoneUITests/Pods-Care365-iPhone-Care365-iPhoneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5634AA4E0F71A8BB3D600109 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Care365-iPhoneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CBCE0268F849324CA7B603C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Care365-iPhone/Pods-Care365-iPhone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Care365-iPhone/Pods-Care365-iPhone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Care365-iPhone/Pods-Care365-iPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68EF237AB99C2C5270F8865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Care365-iPhone-Care365-iPhoneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18458872261194210001384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18172AE92644874A00CE931E /* BpObservationHypoCell.swift in Sources */,
+				184A594D2615F6930094E82D /* MenuTableSection.swift in Sources */,
+				1869FC72263FD75900D257ED /* QuestionnaireMajorSymptomsVcViewController.swift in Sources */,
+				180CDD0826530D4C00884825 /* WeightInsightCell.swift in Sources */,
+				184A69EE261AF105002607F3 /* ObservationsViewController.swift in Sources */,
+				18379473261C29C9003482A4 /* HomeModel.swift in Sources */,
+				185BD872262721F8006B4068 /* WeightInsightObservationCell.swift in Sources */,
+				18462BE726451D4F00EE81B8 /* BpOrangeQuestionnaireViewContoller.swift in Sources */,
+				184588C1261197370001384C /* Extensions.swift in Sources */,
+				18462C032645250100EE81B8 /* BpOrangeQuestionnaireTableCell.swift in Sources */,
+				183D87E92652910C003811DE /* BpObservationHyperCell.swift in Sources */,
+				18172AE3264464D500CE931E /* PostWtAndBpObservationModel.swift in Sources */,
+				1876EF022613412D00BE255A /* LoginModel.swift in Sources */,
+				1845893C2611DA1D0001384C /* CustomLoader.swift in Sources */,
+				1845895A2611EC370001384C /* LoginViewModel.swift in Sources */,
+				18DCAE1D2613386C009B06EA /* HistoryTableCell.swift in Sources */,
+				185E40562612E81D00E00D6D /* TabBarViewController.swift in Sources */,
+				1876EEFD26133CD200BE255A /* HistoryModelController.swift in Sources */,
+				18D3A1AA26538A07009A04E0 /* PostWeightObservations.swift in Sources */,
+				1848951726205148001461D8 /* InsightViewController.swift in Sources */,
+				184588B5261195720001384C /* LoginViewController.swift in Sources */,
+				18A7B6322643B78E004E49AB /* BpMajorSymptomCollectionCell.swift in Sources */,
+				18A7B62A2643B4F1004E49AB /* BpQuestionnaireMajorSymptomVc.swift in Sources */,
+				18AA5C0B2616504E00E36371 /* SplashViewController.swift in Sources */,
+				18D7D5172613D36400D1BEF7 /* MedicineViewController.swift in Sources */,
+				182C7EAA2653A6A300909C41 /* WeightMajorQuestionnaireCell.swift in Sources */,
+				18960BD226171BC2001CFFC5 /* HomeViewController.swift in Sources */,
+				1869FC52263FCDBD00D257ED /* QuestionnaireTableCell.swift in Sources */,
+				183DCD2B261E2A85004CE6B5 /* WeightObservationCell.swift in Sources */,
+				184588C6261198000001384C /* Utility.swift in Sources */,
+				18462BE1264518BD00EE81B8 /* BpOrangeObservationCell.swift in Sources */,
+				182769D0261DA5A800EFF622 /* ObservationModel.swift in Sources */,
+				18D75AC526491765005DD964 /* BpOrangeFirstTimeObservationCell.swift in Sources */,
+				1830886026411FFE00000C87 /* HyperInsightCell.swift in Sources */,
+				182769B5261D828500EFF622 /* Calculations.swift in Sources */,
+				184A590D2615A6FA0094E82D /* VideoViewModel.swift in Sources */,
+				185E40552612E81D00E00D6D /* VideoViewController.swift in Sources */,
+				184A58F6261594410094E82D /* VideoTableCell.swift in Sources */,
+				18D3A1B3265398DF009A04E0 /* WeightMajorQuestionnaireVc.swift in Sources */,
+				1851974E26427F9700C4ECD1 /* BpObservationEmergencyCell.swift in Sources */,
+				1833AE0F2667F1AA00E695CE /* ExtraDialysisModel.swift in Sources */,
+				1897B6222613024F002FFF29 /* MenuViewController.swift in Sources */,
+				182769C7261DA47100EFF622 /* ObsevationViewModel.swift in Sources */,
+				185197582642804600C4ECD1 /* BpObservationRedCell.swift in Sources */,
+				1845887A261194210001384C /* AppDelegate.swift in Sources */,
+				18D528EF26134697002FFDA9 /* HistoryModel.swift in Sources */,
+				18379484261C2FA7003482A4 /* InformationTableCell.swift in Sources */,
+				18B74FD5264BFB8600745BDE /* WeightObservationGreenCell.swift in Sources */,
+				18172ADE264461F700CE931E /* PostBpRedObservationViewModel.swift in Sources */,
+				1845887C261194210001384C /* SceneDelegate.swift in Sources */,
+				184DE57A2614FBB500296F3F /* MenuCell.swift in Sources */,
+				18DCAE182613379E009B06EA /* HistoryViewController.swift in Sources */,
+				1833AE0A2667A36A00E695CE /* ExtraDialysisViewModel.swift in Sources */,
+				182769BA261D900F00EFF622 /* DialysisInfoModel.swift in Sources */,
+				18A7B6392643CE49004E49AB /* FlowLayout.m in Sources */,
+				183DCD32261E2C6F004CE6B5 /* BpObservationCell.swift in Sources */,
+				1869FC62263FD02200D257ED /* QuestionnaireViewModel.swift in Sources */,
+				18379469261C28E8003482A4 /* HomeViewModel.swift in Sources */,
+				18D7D51C2613DE6B00D1BEF7 /* MenuModel.swift in Sources */,
+				184588DA2611A7C60001384C /* APIManager.swift in Sources */,
+				1869FC87264038EB00D257ED /* ExtraDialysisViewController.swift in Sources */,
+				18D7D4922613BF0300D1BEF7 /* PatientDetailsModel.swift in Sources */,
+				184588E62611AB990001384C /* Constants.swift in Sources */,
+				18DCBF552649D2A60011A4A9 /* HypoInsightCell.swift in Sources */,
+				1837947F261C2F51003482A4 /* InformationViewController.swift in Sources */,
+				1869FC4D263FCCC400D257ED /* QuestionaaireViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18458888261194220001384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18458891261194220001384C /* Care365_iPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18458893261194220001384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845889C261194220001384C /* Care365_iPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1845888E261194220001384C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18458875261194210001384C /* Care365-iPhone */;
+			targetProxy = 1845888D261194220001384C /* PBXContainerItemProxy */;
+		};
+		18458899261194220001384C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18458875261194210001384C /* Care365-iPhone */;
+			targetProxy = 18458898261194220001384C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1845887F261194210001384C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18458880261194210001384C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18458884261194220001384C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18458885261194220001384C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1845889E261194220001384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1845889F261194220001384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184588A1261194220001384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F06F1D112B49114CBB981C /* Pods-Care365-iPhone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = QVH5DG8Z7N;
+				INFOPLIST_FILE = "Care365-iPhone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kishan.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Care365-iPhone/Care365-iPhone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		184588A2261194220001384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07B4586A567D3AE6062AF49 /* Pods-Care365-iPhone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = QVH5DG8Z7N;
+				INFOPLIST_FILE = "Care365-iPhone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kishan.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Care365-iPhone/Care365-iPhone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		184588A4261194220001384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253BA76F71D4078EEBB2C198 /* Pods-Care365-iPhoneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q545S7WW48;
+				INFOPLIST_FILE = "Care365-iPhoneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyram.Care365.Care365-iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Care365-iPhone.app/Care365-iPhone";
+			};
+			name = Debug;
+		};
+		184588A5261194220001384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA5D8E8829332415933FA79 /* Pods-Care365-iPhoneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q545S7WW48;
+				INFOPLIST_FILE = "Care365-iPhoneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyram.Care365.Care365-iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Care365-iPhone.app/Care365-iPhone";
+			};
+			name = Release;
+		};
+		184588A7261194220001384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CBCFED8F7DD4501F5DA048 /* Pods-Care365-iPhone-Care365-iPhoneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q545S7WW48;
+				INFOPLIST_FILE = "Care365-iPhoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyram.Care365.Care365-iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Care365-iPhone";
+			};
+			name = Debug;
+		};
+		184588A8261194220001384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BB8D85C63A6AE2B66ED1FC /* Pods-Care365-iPhone-Care365-iPhoneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q545S7WW48;
+				INFOPLIST_FILE = "Care365-iPhoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyram.Care365.Care365-iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Care365-iPhone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18458871261194210001384C /* Build configuration list for PBXProject "Care365-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845889E261194220001384C /* Debug */,
+				1845889F261194220001384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184588A0261194220001384C /* Build configuration list for PBXNativeTarget "Care365-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184588A1261194220001384C /* Debug */,
+				184588A2261194220001384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184588A3261194220001384C /* Build configuration list for PBXNativeTarget "Care365-iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184588A4261194220001384C /* Debug */,
+				184588A5261194220001384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184588A6261194220001384C /* Build configuration list for PBXNativeTarget "Care365-iPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184588A7261194220001384C /* Debug */,
+				184588A8261194220001384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1845886E261194210001384C /* Project object */;
+}
